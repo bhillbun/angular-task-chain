@@ -18,7 +18,7 @@ Specify the module as a dependency of your application:
 var app = angular.module('sampleApp', ['taskChain']);
 ```
 
-Now just inject the TaskChain into any controller or service needed and instance it:
+Now just inject the `TaskChain` into any controller or service needed and instance it:
 
 ``` js
 app.controller('SampleController', ['$scope', '$q', 'TaskChain', function($scope, $q, TaskChain) {
